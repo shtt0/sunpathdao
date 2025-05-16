@@ -1,6 +1,12 @@
 # sunpathdao  
 
-
+#Programを組み込んでいるProduct概要
+1.行政の道路に不備がないかの見回り活動を、一般ドラーバーがDAO的に担い、見回し時に動画をアップロード（オフチェーン対応）したユーザのWalletアドレスに活動報酬が送金されるサービス。  
+2.行政が委託のタスクを作る(create_task)には、フロントでコース指定などを行った後、報酬額のSOLをタスク専用のPDA（Program Derived Address）アカウントにロックし、ユーザの動画提出を待つ。  
+3.ユーザの提出があったら、オフチェーンで委託者にJudge依頼が飛び、Accept(accept_task）かReject（reject_task）を行い、Acceptならロックされていた報酬が提出者のWalletに送金（Walletの指定はフロント側で対応）される。Rejectすると、一定期間待った後に、委託者はLockしていた報酬をWithdrawできる。    
+※この辺は色々ガバガバですが、Productの動きがわかれば良い精神でやっています。  
+4.報酬送金の5％が、DAOトレジャリーへ手数料として徴収されます。  
+5.報酬を受け取るユーザは、一緒にDAOガバナンストークンを受け取れます。  
 
 #program  
 [rib.rs](src/rib.rs)
