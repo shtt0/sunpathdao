@@ -8,7 +8,7 @@
 4.報酬送金の5％が、DAOトレジャリーへ手数料として徴収されます。  
 5.報酬を受け取るユーザは、一緒にDAOガバナンストークンを受け取れます。  
 
-//Programつなぎこみが終わってないですが、Productイメージは以下です。
+//Programつなぎこみが終わってないですが、Productイメージは以下です。  
 https://sunpathdao.replit.app/
 
 #programコード
