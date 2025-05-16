@@ -9,10 +9,10 @@
 5.報酬を受け取るユーザは、一緒にDAOガバナンストークンを受け取れます。  
 
 //Programつなぎこみが終わってないですが、Productイメージは以下です。  
-https://sunpathdao.replit.app/
+https://sunpathdao.replit.app/  
 
-#programコード
-[rib.rs](src/rib.rs)
+#programコード  
+[rib.rs](src/rib.rs)  
 をsolana playgroundのAnchorフレームワーク×DevnetでBuild/Deploy.    
 
 #programID   
